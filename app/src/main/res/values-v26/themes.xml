@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomNavigationItemStyle">
+        <item name="android:layout_marginVertical">16dp</item> <!-- Adjust vertical margin -->
+        <item name="android:padding">8dp</item> <!-- Optional: Add padding for the item -->
+    </style>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PriyvratCustomView">
+        <attr name="shapeColor" format="color" />
+        <attr name="edgeRadius" format="float" />
+        <attr name="slopeLength" format="float" />
+
+        <attr name="slopeType">
+            <enum name="topRight" value="0" />
+            <enum name="topLeft" value="1" />
+            <enum name="bottomRight" value="2" />
+            <enum name="bottomLeft" value="3" />
+            <enum name="leftTop" value="4" />
+            <enum name="leftBottom" value="5" />
+            <enum name="rightTop" value="6" />
+            <enum name="rightBottom" value="7" />
+        </attr>
+    </declare-styleable>
+
+
+
+
+    <declare-styleable name="PriyvratCustomBottomInnerCurved">
+        <attr name="circleColor" format="color"/>
+        <attr name="darkIcon" format="boolean"/>
+        <attr name="android:lines" format="integer"/>
+        <attr name="singleLine" format="boolean"/>
+        <attr name="android:ellipsize" format="string"/>
+        <attr name="maxLines" format="integer"/>
+        <attr name="backgroundShape" format="enum">
+            <enum name="circle" value="0"/>
+            <enum name="roundedRectangle" value="1"/>
+        </attr>
+        <attr name="customBackgroundShape" format="reference"/>
+    </declare-styleable>
+
+
+
+
+
+        <declare-styleable name="BottomPriyvratCustom">
+            <attr format="color" name="backgroundTint"/>
+            <attr format="dimension" name="morphItemRadius"/>
+            <attr format="dimension" name="morphVerticalOffset"/>
+            <attr format="dimension" name="morphCornerRadius"/>
+        </declare-styleable>
+
+
+</resources>

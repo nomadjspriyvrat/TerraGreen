@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TerraGreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#00A550</item>
+        <item name="colorOnPrimary">#3CB371</item>
+        <item name="colorPrimaryDark">#367c2b</item>
+    </style>
+    <style name="CustomNavigationItemStyle">
+        <item name="android:layout_marginTop">16dp</item> <!-- Adjust vertical margin -->
+        <item name="android:padding">8dp</item> <!-- Optional: Add padding for the item -->
+    </style>
+    <style name="Theme.TerraGreen" parent="Base.Theme.TerraGreen" />
+</resources>
